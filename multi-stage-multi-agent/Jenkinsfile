@@ -22,8 +22,8 @@ pipeline {
         docker { image 'Mysql:latest' }
       }
       steps {
-        sh ''
+        sh ' SELECT * FROM XYZ'
       }
-    SELECT * FROM XYZ
+   
   }
 }
